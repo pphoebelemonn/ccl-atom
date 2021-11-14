@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+}
+
+#box{
+    background-color: yellow;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+
+}

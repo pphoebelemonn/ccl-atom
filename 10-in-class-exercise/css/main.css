@@ -1,0 +1,62 @@
+body {
+  background-color: black;
+  color: white
+}
+
+.title{
+  margin-bottom:0px;
+  margin-top: 20px;
+  padding: 40px;
+  border-block: 2px dotted;
+  border-color: white;
+
+}
+
+h1 {
+  color: #B0FC38;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+  padding:0px;
+  margin: 0px;
+  font-weight: lighter;
+}
+
+.chrome {
+  width: 100%;
+  margin-top:0px;
+}
+
+.text {
+  font-size: 24px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.label {
+  color: #B0FC38;
+  font-size: 16px;
+  font-family: 'Press Start 2P', cursive;
+  padding: 10px;
+}
+.label a{
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.info{
+  margin-left: 50px;
+}
+
+.fixed-pic {
+  position: absolute;
+  right: 5%;
+  top: 70%;
+}
+
+#bio {
+  border-style: dotted;
+  border-color: #F4BCFE;
+  width: 320px;
+  padding: 10px;
+}

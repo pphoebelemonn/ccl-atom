@@ -1,0 +1,63 @@
+body {
+  background-color: #72B1A8;
+  margin: 0;
+  color: black;
+}
+
+#title {
+  text-align: center;
+  font-family: 'Zhi Mang Xing', cursive;
+  font-size: 80;
+  font-weight: lighter;
+}
+
+.menu {
+  text-align: center;
+  font-size: 30;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.img {
+  margin-top: 0;
+  margin-left: 350;
+  width: 50%;
+
+}
+
+p {
+  text-align: center;
+  font-size: 34;
+  font-family: 'Long Cang', cursive;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 2;
+}
+
+.song_title {
+  text-align: center;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size:35;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.verses {
+  margin-left: 200;
+  margin-bottom: 0;
+  margin-top: 80;
+  font-size: 24;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+#back {
+  margin-top: 20;
+  margin-left: 20;
+  font-size: 20;
+  font-weight: lighter;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #122413;
+  text-decoration: none;
+}

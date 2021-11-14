@@ -1,0 +1,64 @@
+body {
+  background-color: #DD845D;
+  margin: 0;
+  color: #122413;
+}
+
+#back {
+  margin-top: 20;
+  margin-left: 40;
+  font-size: 30;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+#title {
+  text-align: center;
+  font-family: 'Zhi Mang Xing', cursive;
+  font-size: 80;
+  font-weight: lighter;
+}
+
+.menu {
+  text-align: center;
+  font-size: 30;
+  font-family: 'Julius Sans One', sans-serif;
+
+}
+#singer {
+  text-align: center;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 60;
+  font-weight: lighter;
+  stroke-width: 50%;
+}
+
+.image {
+  width: 100%;
+
+}
+
+p {
+  text-align: center;
+  font-size: 34;
+  font-family: 'Long Cang', cursive;
+  margin-bottom: 0;
+  line-height: 2; 
+}
+
+.song_title {
+  text-align: center;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size:35;
+  font-style: italic;
+}
+
+.verses {
+  margin-left: 200;
+  font-size: 24;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #122413;
+  text-decoration: none;
+}

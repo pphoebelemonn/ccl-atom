@@ -1,0 +1,29 @@
+body {
+  background-color: #C2BFB3;
+  margin: 40;
+  margin-right: 40;
+}
+
+p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30;
+  margin-left: 30;
+}
+
+.headshot {
+  float: right;
+
+}
+
+#back {
+  margin-top: 20;
+  margin-left: 20;
+  font-size: 20;
+  font-weight: lighter;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #122413;
+  text-decoration: none;
+}
