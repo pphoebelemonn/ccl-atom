@@ -48,7 +48,7 @@ function draw() {
     setup();
   }
 
-  if (mouseIsPressed) {
+  if (buttonDown()) {
     v.createVines();
     v1.createVines();
     v3.createVines();
@@ -231,3 +231,7 @@ class Stem {
 
   }
 }
+
+function buttonDown() { 
+  return True 
+} 
