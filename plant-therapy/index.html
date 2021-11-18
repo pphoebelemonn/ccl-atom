@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PLANT THERAPY</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src = 'js/script.js' type='text/javascript'> </script>
+
+    <!-- font for title -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+
+    <!--font for buttons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+  </head>
+<body>
+  <script src = 'js/library/p5.js' type ='text/javascript'> </script>
+
+  <!-- title -->
+  <div class = 'title'>
+    <p class='title'>  ···plant therapy···<p>
+  </div>
+
+  <!--images next to title -->
+  <div id='sketch-container'>
+    <img src = 'assets/hanging-plant.png' alt='border' id = 'plant1'>
+    <img src = 'assets/hang-plant2.png' alt='border' id = 'plant2'>
+  </div>
+
+  <!--grow button -->
+  <div id='grow-button' style='margin-top:400px;position:absolute;margin-left:90px'>
+    <button onclick = "buttonDown()" onmouseup = 'buttonUp()' id = 'grow-me'
+style="width:120px; height:50px;font-family: 'Indie Flower', cursive;font-size:24px"> grow me </button>
+  </div>
+
+  <!--restart button -->
+  <div id = 'prune-me' style="margin-top:400px;margin-left:1120px;position:absolute">
+    <button id = 'prune' onclick = "setup()" id='prune-me'
+    style="width:120px; height:50px;font-family: 'Indie Flower', cursive;font-size:24px" > prune me </button>
+  </div>
+
+</body>
