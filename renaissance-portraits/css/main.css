@@ -1,0 +1,15 @@
+html, body {
+  background-color: rgba(255, 242, 213, 1);
+  margin: 0px;
+  padding: 0px;
+
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+  left: calc(50% - 300px);
+  top: 50px;
+}
