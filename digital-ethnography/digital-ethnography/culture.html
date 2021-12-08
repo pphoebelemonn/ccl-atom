@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Final project </title>
+    <script src = 'js/library/p5.js' type ='text/javascript'> </script>
+    <script src = 'js/game.js' type='text/javascript'> </script>
+    <script src = 'js/vertical_timeline.js' type ='text/javascript'> </script>
+    <link rel="stylesheet" type="text/css" href="css/culture.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&family=Raleway:wght@100;200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&f
+    amily=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&family=Raleway:wght@100;
+    200&family=VT323&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class = 'bg-image-container'>
+      <img src = 'assets/seattle-chinatown.jpeg' class = 'photo' > </img>
+      <div class = 'title'> what is "culture"?</div>
+    </div>
+    <main></main>
+    <div class = "main">
+      <p> As an adoptee, claiming labels and definitions when it comes to talking about
+        cultural identity is especially difficult...
+      </p>
+      <!-- <button onclick="myFunction()">Try it</button>
+      <div class="entries" style = 'position: absolute;'> This is my DIV element. </div> -->
+      <p> others make assumptions from what they think they know about adoption
+         and expect the adoptee to reflect their idea of culture simply based on the way they look,
+         how you dress, and how you act, all of which are things out of their control...</p>
+      <p> Being asked “what are you” is never a fun experience. “What” is a relative
+         pronoun that refers to an inanimate object, not a person. Yes, we are adoptees,
+         but we are people too. The responses the adoptee have for questions like this
+         vary depending on their own comfort level, how the question is delivered, etc... </p>
+      <p> the adoptee's own process of figuring out how they want to identify and how they deal with
+        others interfering with this process takes time; it doesn’t happen over night.
+         it can take years to to understand such nuanced experiences. still,
+         this process is ongoing.</p>
+      <p>nevertheless, the emotional and psychological effect of navigating culture
+        as an adoptee can feel incredibly alienating at times, no matter how many
+        positive or negative experiences one may have. the adoptee identity is not
+        only uncommon, but so complex and diverse to even other adoptees. Given this,
+        finding a true sense of belonging sometimes feels impossible. Feeling alone,
+        out of place, an “Other,” feeling like you are stuck between two worlds,
+        being pushed away and pulled by either sides, are all common emotions the
+        adoptee might experience. For many, they are emotions that are simply apart
+        of the adoptee package, inevitable, unavoidable, and inescapable...</p>
+    </div>
+    <button onclick="openBox('box1', 'closebutton1')" class = 'open' id = 'openbutton1'> Expand </button>
+    <div class="entries" id ='box1'>
+      <div class = 'expandedtext'> "My understanding of culture is shaped by being Asian American,
+               queer, and a Chinese adoptee that grew up in the white suburbs. I feel very
+               partial in these communities. My experience is unlike most others. I didn’t
+               grow up in a Chinese household, but I am also not a white person.
+               As I have left my hometown, I have done a lot for myself to experience
+               Chineseness apart from my white hometown and family. It is very rare to
+                find other people that share these intersectional identities. Finding
+                people that share even a part of these experiences is incredibly meaningful." </br> </div>
+      <div class = 'expandedtext'>
+          " most strongly identify with Asian American culture and bits of
+               Chinese culture. Generally, I feel like Asian American culture is most relatable
+               or identifiable for me because there’s so many other Asian Americans and adoptees
+                have shared experiences within the culture. In my experience, I think being an
+                adoptee adds more complexity when it comes to certain cultural identifications,
+                 though I don’t think it makes it too difficult to identify within a culture." <br> </div>
+      <div class = 'expandedtext'>
+            "I identify with American culture. Which, to be fair, is also a broad term.
+            I grew up in New England, so maybe I would say that I identify with more of a New England
+            culture. It was what I lived and breathed and was surrounded by. I learned it both in school
+            and from the people around me. It felt normal to me, and everything else felt ‘other.’"<br> </div>
+      <div class = 'expandedtext'>
+            "I identify with Chinese culture, which is a really broad category.
+            Because I chose a broad category, it doesn’t make it difficult to identify within it."<br> </div>
+      <div class = 'expandedtext'>
+            "There is no defined group that I'd say would adequately
+            define my culture except for what I make of it myself. This is probably different
+            than those in my community but if it were broken down, similar in that we can relate,
+             assimilate, and believe things that we consume and are inspired/surrounded by."<br> </div>
+      <div class = 'expandedtext'>
+              "culture to me is different from my hometown community
+              because their culture is just American but because of the adoptee's complicated
+              beginnings, culture means much more."<br> </div>
+      <div class = 'expandedtex'>
+            "I think being an adoptee has at times
+            definitely made it hard feeling close to Asian or Chinese-American culture
+            because I didn’t grow up in Asian environments." <br> </div>
+      <div class = 'expandedtext'>
+            "I identify more with American culture,
+            but I think that is because I am a
+            foreigner living in China. If I was back home in Charlotte, NC, I may feel
+            excluded from the culture at times." <br> </div>
+      <div class = 'expandedtext'>
+              I think of “culture” as the set of norms
+              for any given group of people. I feel like I
+              identify more with American culture, but my family also has its own unique
+              culture just like NYU Shanghai or my soccer team does. I’m not sure if I can
+              speak on how others feel about culture in my community--I think it’s pretty
+              personal. <br> </div>
+    </div>
+    <button onclick = 'closeBox("box1", "closebutton1")' class = 'close' id = 'closebutton1'> ╳ </button>
+
+    <!--third popup -->
+    <button onclick="openBox('box3', 'closebutton3')" class = 'open' id = 'openbutton3'> Expand </button>
+    <div class="entries" style = 'position: absolute;' id ='box3'>
+      <div class = expandedtext> "I have been called not Chinese enough several times,
+        often by those who I am closest to who are also Asian. I think this type of gatekeeping
+        is really dangerous, because it furthers the idea of purifying culture and the people
+        of that culture. Chinese people come from so many different backgrounds and stories
+        that it's hard to say that someone's "not Chinese enough" to partake in part of their
+        own culture. It makes me feel sad that I'm being blamed for something that was not
+        in my control and the matter is treated with such levity. When people call me "white-washed,"
+         it translates to me as living up to some standard of whiteness and for which I should be
+         ashamed. I wish if people were going to use this term, they could say it more specifically
+          to express what they mean because this term "white-washed" has become a buzzword for
+          someone not fitting their racial or ethnic stereotypes, which is inherently harmful." </br> </div>
+      <div class = expandedtext>
+          "Much of my attitude is that yeah I probably am “white-washed”, but I have the power to
+          change my Chinese enough-ness. It can be a frustrating feeling, but meeting other adoptees
+           has been surprisingly empowering." <br> </div>
+      <div class = expandedtext>
+          "I remember not really comprehending what being asian meant until
+          I experienced some microaggressions and racism in middle school. Suddenly, all of my
+          peers had figured out that they could weaponize their whiteness against me when I did
+          better on a test or to laugh at me when I was placed in the lower leveled math class." <br> </div>
+      <div class = expandedtext>
+            "I’ve been outcasted from groups because I’m “not Asian/Chinese enough” and it
+             sucks because what gives one person the right to define what is Asian or not Asian.
+              It also sucks because a lot of people casually throw it at someone as a joke,
+              but to me and probably other adoptees, it’s not a joke because people have
+              maliciously used it. "<br> </div>
+      <div class = expandedtext>
+            "I think people calling adoptees or other Asian Americans in general “white-washed”
+            or “too Chinese” or “not Chinese enough” also shows how the idea of being Chinese
+            differs for so many people. I’ve been called white-washed plenty of times and my
+            response is usually along the lines of “Well, yeah. My whole family is white,
+             it’s kind of unavoidable."<br> </div>
+      <div class = expandedtext>
+            "- I was called a common white girl once. And I was proud of it. I think for
+            so much of my life and even now, if I’m being honest, I’ve simply wanted to
+            fit in with the other girls. Who were predominantly white in the social circles
+             and school district that I grew up in. I’ve never been called 'too Chinese,'
+             but I’ve definitely been called ‘not Chinese enough’."<br> </div>
+    </div>
+    <button onclick = 'closeBox("box3", "closebutton3")' class = 'close' id = 'closebutton3'> ╳ </button>
+
+    <!-- second pop up box -->
+    <button onclick="openBox('box2', 'closebutton2')" class = 'open' id = 'openbutton2'> Expand </button>
+    <div class="entries" style = 'position: absolute;' id ='box2'>
+      <div class = expandedtext> "I kind of avoid saying that I’m adopted.
+            I know that it’s an interesting part about myself, but I
+		        don’t like to stand out that much." </br> </div>
+      <div class = expandedtext>
+          "As a college student, being asked where you are from typically refers
+          to your hometown not where you were born, so I typically respond with “Tualatin”
+           or “Portland”. Labels I use include Chinese, Asian etc. I’m currently taking
+           an anthropology class, so I feel like my understanding of culture may come
+           from a more academic standpoint in that I’m able to view culture as an
+           intersectionality of multiple different aspects of life." <br> </div>
+      <div class = expandedtext>
+            "If pushed, then, yes, I’m Chinese-American. But I tend to only identify
+            myself as American because it feels right. I’m Chinese, but I don’t own that identity. "<br> </div>
+      <div class = expandedtext>
+            " it feels weird to say Chinese-American since I’m technically 100% chinese...yet
+            I grew up in the US. Part of me feels like I should be more connected with my
+            Chinese side but nothing about my family is Chinese. It’s hard because I see
+            myself as white or your typical American yet I’m Asian."<br> </div>
+      <div class = expandedtext>
+            "For the first time, someone asked me if I was an ABC. For simplicity, I just said
+	           yes. These questions of where are you from can feel very different depending on
+	            who is asking. Usually, I say I am just from California and that I am Chinese. It
+	             took me a long time to even say I am Chinese! I can say I am Chinese, but I know
+	              this label means something very different to many of the Chinese Americans that I
+	               grew up with."<br> </div>
+      <div class = expandedtext>
+              "I say, “fuck off”. Just kidding--kind of. I mean first of all those words are i
+              ncredibly othering; it's a form of microaggression. I think it's funny because
+               looking back, I realize my answer changes based on who is asking me and where I am. 
+              If a white person asks me in America, I’ll mess with them and say I’m American
+              (because that answer is not wrong), and basically say anything that doesn’t give
+              them the answer I want to hear. In China, it depends on the situation. Sometimes
+               I say I’m chinese, sometimes I say I’m American born chinese, sometimes I say
+               I’m Chinese but raised in America (kind of hinting that I’m adopted without saying it),
+               or sometimes I’ll just tell them I’m adopted."<br> </div>
+    </div>
+    <button onclick = 'closeBox("box2", "closebutton2")' class = 'close' id = 'closebutton2'> ╳ </button>
+
+
+    <!-- fourth popup box -->
+    <button onclick="openBox('box4', 'closebutton4')" class = 'open' id = 'openbutton4'> Expand </button>
+    <div class="entries" style = 'position: absolute;' id ='box4'>
+      <div class = expandedtext> "Because of the pandemic and college, I have been “stuck”
+        in Shanghai, China for over a year now. As much as my family and I both miss each other,
+         I always find it painfully difficult to admit to them that my time spent here is
+         actually acting as a recuperation period for my traumatic experiences of being an
+         adoptee. Being in my birthplace has and continues to heal my mind and my soul,
+         on a level that is unexplainable to my parents. If I explain this to them I often
+         worry that they will see it as me choosing one country over another, one culture
+         over another, etc. " </br> </div>
+      <div class = expandedtext>
+          "I remember one year, my mom printed off coloring sheets and ordered Chinese food
+          for my kindergarten class on Chinese New Year Day. At the time, I didn’t really
+          understand he significance and I was just happy about being the most popular kid in class
+           that day. But looking back now, I see the intention and the heart behind it,
+            but I also see the wrongness of it. She wanted to do something to celebrate
+             one part of my identity, but it felt like a showy and inauthentic way to do so. " <br> </div>
+      <div class = expandedtext>
+            "Culture to me means my Chinese heritage, and whatever knowledge I had of it at the time.
+            As I grew and had more Chinese friends I began to understand and celebrate more.
+             My understanding was smaller than others in my community but I tried my best growing
+              up and still educating myself to fully embrace my own culture."<br> </div>
+      <div class = expandedtext>
+            "It has been interesting conversing with others who have somewhat dual cultural identities
+             and hearing how they understand themselves. I know it doesn’t have to be one or
+              the other – American or Chinese. But I think that, growing up, it very much
+               felt that way. To the point where I ignored and tried to erase my Chinese
+               identity in an effort to be as American as I could be. And I don’t know if
+                I have (or want) access to that Chinese identity anymore."<br> </div>
+      <div class = expandedtext>
+            "I now consider myself an Asian American. It took me a while to feel comfortable
+            calling myself Asian because my whole upbringing was around the white suburbs.
+            I think I have evolved my identity as an individual away from that environment.
+            Being an Asian adoptee has just added an additional lens that I apply to myself
+             when in other cultures such as a queer person, a sort of expat, and an American.
+             I try to live with the nuance of it?"<br> </div>
+      <div class = expandedtext>
+              "I say, “fuck off”. Just kidding--kind of. I mean first of all those words are i
+              ncredibly othering; it's a form of microaggression. I think it's funny because
+               looking back, I realize my answer changes based on who is asking me and where I am. 
+              If a white person asks me in America, I’ll mess with them and say I’m American
+              (because that answer is not wrong), and basically say anything that doesn’t give
+              them the answer I want to hear. In China, it depends on the situation. Sometimes
+               I say I’m chinese, sometimes I say I’m American born chinese, sometimes I say
+               I’m Chinese but raised in America (kind of hinting that I’m adopted without saying it),
+               or sometimes I’ll just tell them I’m adopted."<br> </div>
+    </div>
+    <button onclick = 'closeBox("box4", "closebutton4")' class = 'close' id = 'closebutton4'> ╳ </button>
+
+    <div class = 'gradient'> </div>
+    <div class = 'line'>  </div>
+
+    <div class = 'sketch-container'></div>
+  </body>
+</html>

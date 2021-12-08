@@ -1,0 +1,110 @@
+html, body {
+  margin: 0px;
+  body: 0px;
+}
+
+.canvas {
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+
+.title {
+  position: absolute;
+  background: rgba(0,0,0,0);
+  width: 100%;
+  height: 20%;
+  top: 10%;
+  text-align: center;
+  font-size:45px;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+}
+
+.instructions {
+  background: rgba(0, 0, 0,0);
+  font-size: 20px;
+  text-align: left;
+  color: white;
+  line-height: 1.5;
+  width: 80%;
+  height: 100%;
+  font-family: 'Press Start 2P', cursive;
+  /* overflow: normal; */
+  border-right: .15em solid white;
+  white-space: nowrap;
+  /* animation:
+    typing 3s steps(100, end) forwards,
+    blink .8s infinite; */
+  width: 100%;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+  from {height: 0}
+  to {height: 100%}
+}
+
+@keyframes blink {
+  from { border-color: transparent }
+  to { border-color: white; }
+}
+
+/* .typing-container{
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+} */
+
+.slider-item {
+  /*transition: transform 0.7s ease-in-out;*/
+  width: 80%;
+  left: 10%;
+  display: flex;
+  flex-basis: column wrap;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  top: 15%;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.slide {
+  display: none;
+}
+
+.carousel {
+  position: absolute;
+  align-items:center;
+  width: 90%;
+  left: 5%;
+  height: 30%;
+  margin: 0px;
+  padding: 0px;
+  top: 65%;
+}
+
+.next {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 100%;
+  margin-top: -50px;
+  width: 70px;
+  height: 20px;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  right: 250px;
+  border: 3px solid white;
+}
+
+
+.next:hover {
+  opacity: 0.7
+}
