@@ -1,0 +1,97 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+
+}
+
+canvas {
+  position: absolute;
+  z-index: -1;
+}
+
+.sketch-container{
+  position: absolute;
+  z-index: -1;
+}
+
+@keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+
+}
+
+.carousel {
+  position: absolute;
+  flex-basis: column wrap;
+  align-items:center;
+  width: 50%;
+  height: 60%;
+  top: 20%;
+  left: 25%;
+  margin: 0px;
+  padding: 0px;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  background-color: black;
+}
+
+.slider-item {
+  transition: 0.7s ease-in-out;
+  display: flex;
+  flex-basis: column wrap;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  left: 5%;
+  height: 90%;
+  top: 5%;
+  flex-direction: column;
+  color: white;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+.slide {
+  display: none;
+}
+
+.story {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  line-height: 1.4;
+}
+
+.link {
+  position: absolute;
+  padding-top: 15px;
+  font-style: italic;
+  width: 20%;
+  height: 6%;
+  left: 130%;
+  top: 120%;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+
+a:link, a:visited {
+  color: white;
+  text-decoration-line:none;
+}
+
+a:hover, a:active {
+  color:rgba(255,255,255, 0.5);
+  text-decoration-line: underline;
+  font-style: bold;
+
+}
